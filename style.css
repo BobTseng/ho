@@ -1,0 +1,539 @@
+/* 從二個.css 變成一個(刪掉product.css) */
+*{
+    /* background: url(images/4.webp); */
+    
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+    /* color: gold; */
+}
+
+body{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    /* font-weight: <weight>; */
+    font-style: normal;
+
+    background-color: floralwhite;
+}
+
+hr{
+    /* color: white; */
+    border: 0.2px solid darkgray;
+}
+
+/* 首頁 */
+.navbar{
+    background-color: floralwhite;
+    color: beige;
+    /* background-color: li; */
+    opacity: 0.8;
+    box-shadow: 0px 2px 5px linen;
+
+    /* margin-top: -30px; */
+
+    
+    
+}
+
+.kk{
+    color: beige;
+
+    
+}
+
+/* .navbar .container-fluid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}  */
+
+.ho{
+    /* 大頭照 */
+    width: 50px;
+    height: 50px;
+
+    border-radius: 1000px;
+    
+    filter: contrast();
+    
+}
+
+.vada{
+    text-decoration: none;
+    color: black;
+    /* margin-left: -10px; */
+}
+
+.navbar-toggler{
+    /* background-color: white;
+    color: gold; */
+    background-color: white;
+    border: 2px solid white;
+
+    position: absolute;
+    top: 50%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+
+    /* display: flex;
+    justify-content: center;
+    align-self: center; */
+}
+
+.nav-item{
+    margin-left: 20px;
+}
+
+.nav-link{
+    
+    color: black;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-right: 10px;
+
+    /* text-align: center; */
+    
+
+}
+
+
+
+.nav-link:hover{
+    transition: 0.5s;
+    background-color: linen;
+    color: black;
+
+    /* background-color: floralwhite;
+    
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center; */
+}
+
+/* 輪播圖 */
+.carousel{
+    background-color: floralwhite;
+    /* margin-top: 60px; */
+}
+
+.yellow{
+    color: gold;
+    display: inline;
+    background-color: white;
+    padding: 5px 10px 5px 10px;
+    
+    background-color: black;
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);  */
+}
+
+
+
+.carousel-control-prev-icon{
+    /* color: blueviolet; */
+    background-color: brown;
+    border-radius: 5px;
+}
+
+.carousel-control-next-icon{
+    /* color: blueviolet; */
+    background-color: brown;
+    border-radius: 5px;
+}
+
+.d-block{
+    width: 100%;
+    height: auto;
+}
+
+/* 原由border-radius: 10px; */
+.hello{
+    background-color: floralwhite;
+}
+
+.yellow2{
+    text-align: center;
+    color: black;
+    /* text-shadow: 10px 0px 10px ; */
+}
+
+.white2{
+    color: midnightblue;
+    background-color: linen;
+    /* box-shadow: 5px 10px 5px black; */
+
+}
+
+.haha{
+    /* background-color: linen; */
+    color: midnightblue;
+}
+
+.ullony{
+    background-color: floralwhite;
+    
+}
+
+/* .ullony .eeeee{
+    color: red;
+} */
+
+.hello .ullony li{
+    background-color: cornsilk;
+    
+}
+
+.cool, .love{
+    color: red;
+}
+
+.ulonly{
+    /* background-color: beige; */
+}
+
+.ulonly li{
+    color: midnightblue;
+    background-color: linen;
+}
+
+.olonly{
+    background-color: linen;
+    color: midnightblue;
+}
+
+
+.olonly li{
+    color: midnightblue;
+    /* backgr sound-color: beige; */
+}
+
+.olonly li h6{
+    color: midnightblue;
+}
+
+.olonly p{
+    color: red;
+    
+}
+
+.qqqqq{
+    color: midnightblue;
+    background-color: linen;
+
+    /* background-color: beige; */
+}
+
+/* .olonly{
+    color: black;
+} */
+
+/* footer */
+.hh{
+    /* background-color: floralwhite; */
+    /* color: white; */
+
+}
+
+
+p .fa-brands{
+    display: inline;
+    font-size: 16px;
+    color: greenyellow;
+    /* border: 1px solid black;*/
+    padding-right: 5px;
+}
+
+p .fa-solid{
+    display: inline;
+    font-size: 16px;
+    color: black;
+}
+
+p .fa-regular{
+    display: inline;
+    font-size: 16px;
+    color: black;
+
+}
+
+.fa-brands a{
+    font-size: 15px;
+    font-weight: 900;
+    text-decoration: none;
+    color: black;
+
+    text-decoration: none;
+    font-size: 15px;
+
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    /* font-weight: <weight>; */
+    font-style: normal;
+}
+
+p .fa-brands a:hover{
+    /* background-color: lightblue; */
+
+    color: black;
+    transition: 0.5s;
+    background-color: linen;
+    /* border-radius: 5px; */
+    /* display: block; */
+    padding-left: 5px;
+    /* padding-right: 5px; */
+
+    text-decoration: underline;
+    color: black;
+    padding: 5px 5px 5px 5px;
+}
+
+.fa-solid a{
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    /* font-weight: <weight>; */
+    font-style: normal;
+}
+
+p .fa-solid a:hover{
+    /* background-color: lightblue; */
+    color: black;
+    transition: 0.5s;
+    background-color: linen;
+    /* border-radius: 5px; */
+    /* display: block; */
+    padding-left: 5px;
+    padding-right: 5px;
+
+    text-decoration: underline;
+    color: black;
+    padding: 5px 5px 5px 5px;
+}
+
+.fa-regular a{
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    /* font-weight: <weight>; */
+    font-style: normal;
+
+    font-weight: 900;
+}
+
+p .fa-regular a:hover{
+    /* background-color: lightblue; */
+    color: black;
+    transition: 0.5s;
+    background-color: linen;
+    /* border-radius: 5px; */
+    /* display: block; */
+    padding-left: 5px;
+    padding-right: 5px;
+
+    text-decoration: underline;
+    /* color: black; */
+    padding: 5px 5px 5px 5px;
+
+    
+}
+
+
+
+.col-sm-4{
+    text-align: center;
+}
+
+
+
+.col-sm-12{
+    text-align: center;
+    
+}
+
+.col-sm-12 p i{
+    color: red;
+}
+
+.col-sm-12 p i a{
+
+}
+
+.col-sm-12 p i a:hover{
+    cursor: default;
+    background-color: floralwhite;
+}
+
+/* .col-sm-12 p i a:hover{
+    
+    color: red;
+    background-color: linen;
+    cursor: default;
+
+    font-family: "Dancing Script", cursive;
+    
+    font-style: normal;
+} */
+
+/* 卡片 */
+.gallery{
+    text-align: center;
+}
+
+.col-sm-4 a{
+    border-bottom: black;
+}
+
+.card{
+    height: 400px;
+    /* width: auto; */
+    /* font-size: 20px; */
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px black;
+    /* background-color: linen; */
+    /* margin-left: 20px; */
+
+    /* border-top-left-radius: 10px; */
+    /* border-top-right-radius: 10px; */
+}
+
+/* .shit{
+    max-width: 33%;
+    height: auto;
+} */
+
+.card img{
+    height:400px;
+
+    /* width: auto; */
+    border-radius: 5px;
+    /* box-shadow: 5px 15px 10px black; */
+    /* border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px; */
+}
+
+.card h5{
+    color: floralwhite;
+    text-align: center;
+    
+    /* background: #28282b;
+    background: linear-gradient(90deg, rgba(40, 40, 43, 0.31) 0%, rgba(36, 32, 32, 1) 100%); */
+    margin-top: -40px;
+    
+    opacity: 0.7;
+    /* display: inline; */
+    
+}
+
+/* .card p{
+    color: midnightblue;
+} */
+
+.intro{
+    /* background-color: cadetblue; */
+
+    position: absolute;
+    top: 445%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    color: red;
+}
+
+
+
+
+
+ 
+/* 多出來的部分 */
+/* .labubu{
+    width: 300px;
+    height: 300px;
+
+    
+} */
+
+/* .box{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+
+    background-color: chocolate;
+    text-align: center;
+} */
+
+@media (max-width:600px){
+
+        .navbar .container-fluid{
+            /* background-color: red;
+
+            position: absolute;
+            top: 400%;
+            left: 50%;
+            transform: translate(-50%, -50%); */
+
+            display: flex;
+            justify-content: center;
+            align-items: first baseline;
+        }
+
+        .nav-link{
+    
+            color: black;
+            border-radius: 5px;
+            margin-left: 10px;
+            margin-right: 10px;
+            padding-left: 10px;
+            padding-right: 10px;
+
+            
+            text-align: center;
+            line-height: 10px;
+            /* display: flex;
+            justify-items: center;
+            align-items: center; */
+            /* position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%); */
+    }
+
+   .ho{
+        border-radius: 999px;
+        width: 40px;
+        height: 40px;
+        /* max-height: 40px;
+        width: auto; */
+        /* display: flex; 
+        justify-content: center;
+        align-items: center;  */
+        /* position: absolute;
+        top: 90%;
+        left: 50%;
+        transform: translate(-50%, -50%); */
+    }
+
+    /* 原由 */
+    #fontsize{
+        font-size: 22px;
+    }
+
+    /* ----------------------- */
+    /* 作品集 */
+    .card{
+
+    }
+
+    .intro{
+        top: 1170%;
+        color: red;
+    }
+}
